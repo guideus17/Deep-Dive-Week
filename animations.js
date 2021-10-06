@@ -1,4 +1,4 @@
-const scrollElements = document.querySelectorAll("#jaquelinphoto");
+const scrollElements = document.querySelectorAll(".animation");
 
 const elementInView = (el, dividend = 1) => {
   const elementTop = el.getBoundingClientRect().top;
@@ -17,12 +17,16 @@ const elementOutofView = (el) => {
   );
 };
 
+
+
+
+
 const displayScrollElement = (element) => {
-  element.classList.add("jaquelinphotoScrolled");
+  element.classList.add("animationScrolled");
 };
 
 const hideScrollElement = (element) => {
-  element.classList.remove("jaquelinphotoScrolled");
+  element.classList.remove("animationScrolled");
 };
 
 
