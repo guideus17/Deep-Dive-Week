@@ -18,9 +18,6 @@ const elementOutofView = (el) => {
 };
 
 
-
-
-
 const displayScrollElement = (element) => {
   element.classList.add("animationScrolled");
 };
@@ -44,6 +41,10 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => { 
   handleScrollAnimation();
 });
+
+
+
+
 
 
 

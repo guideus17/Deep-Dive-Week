@@ -185,7 +185,7 @@ h3 span {
 #ilustrationimg {
     height: 100%;
     overflow: hidden;
-    transition: 3s;
+    transition: 2s;
     right: -100px;
     opacity: 0%;
    margin-right: -500px;
