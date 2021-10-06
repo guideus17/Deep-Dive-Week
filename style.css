@@ -104,14 +104,28 @@ h3 span {
 
   #jaquelinphoto{
     position: absolute;
-    top: 65px;
+    top: 150px;
+    opacity: 0%;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     z-index: 5;
     box-sizing: border-box;
     border: solid 3px white;
+    transition: 0.5s;
   }
+  
+  .jaquelinphotoScrolled {
+    animation: animation 0.6s cubic-bezier(0.17, -0.02, 0.38, 1.74) both;
+}
+
+@keyframes animation {
+    100% {
+        top: 65px;
+        opacity: 100%;
+    }
+}
+
 
 
   #IntroductionText {
