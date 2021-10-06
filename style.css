@@ -22,6 +22,7 @@
     position: fixed;
     top: 40px;
     right: 2vw;
+    z-index: 10;
 }
 
 header {
@@ -176,25 +177,25 @@ h3 span {
         height: 389px;
         overflow: hidden;
         position: absolute;
-        right: -100px;
-        opacity: 0%;
+        right: 0px;
         transition: 2s;
       }
 
-#ilustration.animationScrolled {
-    right: 0px;
-    opacity: 100%;
-}
-
     
-#ilustration img {
+#ilustrationimg {
     height: 100%;
     overflow: hidden;
     transition: 3s;
+    right: -100px;
+    opacity: 0%;
+   margin-right: -500px;
   }
 
 
-
+  #ilustrationimg.animationScrolled {
+    margin-right: 0px;
+    opacity: 100%;
+}
 
 
 
