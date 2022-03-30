@@ -14,7 +14,10 @@
       font-size: 17px;
   }
 
-
+  @font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Regular.ttf)
+}
 
   /* ----------------------------------------------------------------------------------- */
 
@@ -351,6 +354,7 @@ h3 span {
       padding-left: 50px;
       padding-right: 50px;
   }
+ 
 
   .division {
       border-left: solid 1px var(--pink);
@@ -364,6 +368,8 @@ h3 span {
       color:var(--pink);
       margin-bottom: 20px;
   }
+
+  
 
   #explore2 p {
     margin-bottom: 20px;
